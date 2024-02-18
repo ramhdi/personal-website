@@ -16,6 +16,7 @@
     "@nuxtjs/google-fonts": "3.1.1",
     "nuxt": "3.9.1",
     "nuxt-icon": "0.6.7",
+    "postcss-custom-properties": "^13.3.4",
     "prettier": "3.1.1",
     "prettier-plugin-tailwindcss": "0.5.9",
     "yarn-upgrade-all": "^0.7.2"
