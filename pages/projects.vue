@@ -1,11 +1,12 @@
 <template>
   <main class="min-h-screen">
     <AppHeader class="mb-12" title="Projects" :description="description" />
-    <div class="space-y-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
       <AppProjectCard
         v-for="(project, id) in projects"
         :key="id"
         :project="project"
+        class="w-full"
       />
     </div>
   </main>
@@ -13,9 +14,9 @@
 
 <script setup>
 const description =
-  "I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved.";
+  "Most of my projects are related to electronics. Will add my software engineering projects soon!";
 useSeoMeta({
-  title: "Projects | Fayaz Ahmed",
+  title: "Projects | Rama Rahardi",
   description,
 });
 

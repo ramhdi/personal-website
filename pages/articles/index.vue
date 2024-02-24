@@ -11,9 +11,9 @@
 
 <script setup>
 const description =
-  "All of my long-form thoughts on programming, user interfaces, product design, and more, collected in chronological order.";
+  "Here are my thougts and findings on engineering and tech. Will keep writing!";
 useSeoMeta({
-  title: "Articles | Fayaz Ahmed",
+  title: "Articles | Rama Rahardi",
   description,
 });
 

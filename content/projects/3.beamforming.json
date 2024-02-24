@@ -1,0 +1,6 @@
+{
+  "name": "Beamforming Antenna",
+  "url": null,
+  "description": "Antenna array with beamforming capability for direction of arrival (DoA) estimation",
+  "thumbnail": "/projects/beamforming.png"
+}
