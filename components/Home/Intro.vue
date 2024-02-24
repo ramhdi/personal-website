@@ -1,8 +1,8 @@
 <template>
   <div class="space-y-6">
-    <NuxtImg src="/avatar.png" alt="Rama Rahardi"
+    <img src="/avatar.png" alt="Rama Rahardi"
       class="ring-2 border ring-gray-200 border-gray-300 dark:ring-white/10 dark:border-gray-800 hover:ring-4 transition-all duration-300 bg-gray-200 dark:bg-gray-900 rounded-full h-20 w-20 sm:h-20 sm:w-20"
-      sizes="400px" format="png" />
+      sizes="400px" />
     <h1 class="text-xl font-bold tracking-tight text-gray-800 dark:text-gray-100">
       Hello!
     </h1>
