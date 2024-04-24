@@ -15,7 +15,7 @@
     </p>
     <p class="text-gray-900 dark:text-gray-400">
       I'm interested in careers in software engineering. You can see my resume
-      <a href="/resume/Rama_Rahardi_Resume_20240223.pdf" target="_blank" class="underline">here</a>.
+      <a href="/resume/Rama_Rahardi_Resume_20240319.pdf" target="_blank" class="underline">here</a>.
       Reach me out if you're interested to collaborate with me!
     </p>
   </div>

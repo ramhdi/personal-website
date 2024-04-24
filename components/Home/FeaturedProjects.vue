@@ -11,26 +11,18 @@
       />
     </div> -->
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-      <AppProjectCard
-        v-for="(project, id) in projects"
-        :key="id"
-        :project="project"
-        class="w-full"
-      />
+      <AppProjectCard v-for="(project, id) in projects?.reverse().slice(0, 2)" :key="id" :project="project"
+        class="w-full" />
     </div>
     <div class="flex items-center justify-center mt-6 text-sm">
-      <UButton
-        label="All Projects &rarr;"
-        to="/projects"
-        variant="link"
-        color="gray"
-      />
+      <UButton label="All Projects &rarr;" to="/projects" variant="link" color="gray" />
     </div>
   </div>
 </template>
 
 <script lang="ts" setup>
-const { data: projects } = await useAsyncData("projects-home", () =>
-  queryContent("/projects").limit(2).find()
+const { data: projects } = await useAsyncData('projects-home', () =>
+  queryContent('/projects')
+    .find()
 );
 </script>
