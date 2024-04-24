@@ -2,12 +2,7 @@
   <main class="min-h-screen">
     <AppHeader class="mb-12" title="Projects" :description="description" />
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-      <AppProjectCard
-        v-for="(project, id) in projects"
-        :key="id"
-        :project="project"
-        class="w-full"
-      />
+      <AppProjectCard v-for="(project, id) in projects.reverse()" :key="id" :project="project" class="w-full" />
     </div>
   </main>
 </template>
